@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img
+            src="https://play-lh.googleusercontent.com/cShys-AmJ93dB0SV8kE6Fl5eSaf4-qMMZdwEDKI5VEmKAXfzOqbiaeAsqqrEBCTdIEs"
+            alt="Spotify"
+          />
+          Spotify
+        </li>
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>Thanganmey - Anirudh</h1>
+      </div>
+    </div>
+    <audio id="myAudio" src="song.mp3"></audio>
+    <div class="bottom">
+      <input type="range" name="range" id="myprogressbar" min="0" max="100" />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

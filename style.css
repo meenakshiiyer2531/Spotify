@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.brand img {
+  width: 60px;
+}
+nav {
+  font-family: "Bitter", serif;
+}
+font1 {
+  font-family: "Playfair Display", serif;
+}
+font2 {
+  font-family: "Bitter", serif;
+}
+.brand {
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: xx-large;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+}
+nav li {
+  padding-left: 30px;
+}
+nav ul li a {
+  color: aliceblue;
+  list-style-type: none;
+  background-color: black;
+}
+
+.container {
+  min-height: 65vh;
+  background-color: black;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 90%;
+  height: 50%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("https://i.ytimg.com/vi/PWksL4qlnAk/maxresdefault.jpg");
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  color: azure;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myprogressbar {
+  width: 85vw;
+  text-align: center;
+  cursor: pointer;
+}
+.footerr {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  bottom: 0;
+}
+.contain {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 87.8vh;
+}
+.songlist h1 {
+  padding-bottom: 50px;
+  font-family: "Playfair Display", serif;
+}
+.songlist {
+  padding: 30px;
+  font-family: "Bitter", serif;
+}
